@@ -1,7 +1,7 @@
 This is a Tac-tac-toe game. Two players can play this game. The first player that clicks the circular box gets automatically assigned the 'X' symbol.
 The second player gets assigned the '0' symbol.
 If either player wins, a win message is displayed on the display box and the game restarts automatically after 5 seconds.
-Clicking on the restart button at the buttom of the screen will restart the game.
+Clicking on the restart button at the bottom of the screen will restart the game.
 
 //logic
 Theere are two javascript files uploaded.
