@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFB7C5;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.heading{
+    width:200px;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    padding:10px;
+
+}
+
+
+.game{
+    margin-top:20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    background-color:white;
+    border: 7px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25%;
+    background-blend-mode: hard-light;
+    transition: all 2s ease-in-out;
+}
+.box:hover{
+    background-color: #999;
+    background-blend-mode: normal;
+    box-shadow: 0 0 4px white;
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 60px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 7px solid black;
+    border-radius:20px ;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height:50px;
+    text-align: center;
+}
+
+.resultwin{
+    margin-top: 10%;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    background-color: green;
+    border: 7px solid black;
+    font-family: 'Roboto', sans-serif;
+    border-radius:20px ;
+    width: 400px;
+    height:50px;
+    text-align: center;
+}
+.resultlose{
+    margin-top: 10%;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    background-color: red;
+    border: 7px solid black;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border-radius:20px ;
+    width: 400px;
+    height:50px;
+    text-align: center;
+
+}
+
+.win{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border: 7px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25%;
+
+}
+.lose{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    border: 7px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25%;
+
+}
+.restart{
+    width:200px;
+    height:50px;
+    background-color:black;
+    color: beige;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top:10px ;
+}
+.restart:hover{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
