@@ -1,6 +1,7 @@
 const boxes = document.getElementsByClassName("box");
 console.log(boxes);
 let result = document.getElementById("msg");
+let boxcontainer = document.getElementById("boxcontainer");
 let blockedindex = [];
 
 let boxindex = [0, 1, 2, 3, 4, 5, 6, 7, 8];
@@ -61,6 +62,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[2].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -75,6 +77,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[2].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -98,6 +101,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[6].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -112,6 +116,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[6].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -133,6 +138,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -146,6 +152,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                     
                     setTimeout(function () {
                         window.location.reload();
@@ -171,6 +178,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[7].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -184,7 +192,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[7].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
-                    
+                         boxcontainer.style.pointerEvents = 'none';
 
                     setTimeout(function () {
                         window.location.reload();
@@ -211,6 +219,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[6].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -224,6 +233,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[6].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                     
 
                     setTimeout(function () {
@@ -245,6 +255,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -258,6 +269,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                     
                     setTimeout(function () {
                         window.location.reload();
@@ -282,6 +294,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[5].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -295,6 +308,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[5].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                     
 
                     setTimeout(function () {
@@ -320,6 +334,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 1(X) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                         setTimeout(function () {
                             window.location.reload();
     
@@ -332,6 +347,7 @@ for (let i = 0; i < boxes.length; i++) {
                         boxes[8].classList.toggle("win");
                         result.classList.toggle("resultwin");
                         result.innerHTML = "Player 2(0) wins🏆🎊";
+                         boxcontainer.style.pointerEvents = 'none';
                     
 
                     setTimeout(function () {
